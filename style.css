@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background:  radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,0.6951155462184874) 89%);; */
+
+}
+
+body{
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    border-color: black;
+}
+
+.img_shape{
+    /* border-radius: 35px; */
+    /* border: 2px solid black; */
+}
+/* .dark{
+    margin-left: 98%;
+    background-color: black;
+    color: white;   
+    border:2px solid black;
+    border-radius: 30px;
+} */
+.dark-mode {
+    background-color:black;
+    color: white;
+    border-color: azure;
+  }
+
+
+  
+.nav{
+    list-style: none;
+    display: inline-flex;
+    
+    padding: 12px;
+    padding-inline: 10px;
+}
+
+.l1{
+    padding: 12px;
+    color: maroon;
+    font-size: 25px;
+}
+
+
+.firstblock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
+    
+}
+.left1{
+    padding-top:10px;
+    
+    padding-left: 250px;
+
+
+}
+
+.right1{    
+font-size: 50px;
+align-items: end;
+}
+
+.nm2{
+    font-size: 30px;
+    color: maroon;
+}
+.containers{
+    margin-bottom: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+   background-color: white;
+     padding: 20px 60px; 
+    margin-bottom: 50px;
+    margin: auto;
+}
+
+.left{
+    font-size: 20px;
+    border: 2px solid black; 
+    padding-top: 0px;
+    padding: 40px;
+    margin-left: 45px;
+    border-radius: 16px;
+    font-family:'Times New Roman', Times, serif;
+}
+.left li{
+    list-style: none;
+
+}
+.left.pre{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.heading{
+   padding-left: 46%;
+   padding-top: 10px; 
+   color: maroon;
+}
+
+.container2{
+    display: flex;
+    padding-top: 35px;
+    padding-bottom: 60px;
+    margin-bottom: 150px;
+    background-color:white;
+}
+
+.head{
+    padding-left: 47%;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    
+}
+.head h1{
+    margin-bottom: 30px;
+}
+.pics{
+  
+    height: 200px;
+    width: 280px;   
+    /* border-radius: 12px; */
+    /* border: 1px solid rgb(255, 255, 255); */
+    margin: auto;
+    
+}
+.container3{
+    display: flex;
+    padding-top: 35px;
+    padding-bottom: 60px;
+    border: 2px solid black;
+    border-radius: 25px;
+   margin-left: 60px;
+   margin-right: 60px;
+   margin-bottom: 60px;
+
+}
+.head{
+   
+    padding-top: 50px;
+    padding-bottom: 25px;
+    color: maroon;
+    /* border: 1px inset black; */
+    justify-content: center;
+  
+}
+
+.pics{
+  
+    height: 200px;
+    width: 280px;
+    /* border: 2px solid rgb(255, 255, 255); */
+    margin: auto;
+    /* box-shadow: 5px 5px 5px 5px lightcyan; */
+    
+}
+
+.certify{
+    height: 200px;
+    width: 280px;
+}
+/* .pics {
+    --c:#94bbe9; 
+    --b: 10px;  
+    --g: 5px;     
+    
+    padding: calc(var(--g) + var(--b));
+    --_g: #0000 25%,var(--c) 0;
+    background: 
+      conic-gradient(from 180deg at top    var(--b) right var(--b),var(--_g))
+       var(--_i,200%) 0  /200% var(--_i,var(--b))  no-repeat,
+      conic-gradient(            at bottom var(--b) left  var(--b),var(--_g))
+       0   var(--_i,200%)/var(--_i,var(--b)) 200%  no-repeat;
+    transition: .3s, background-position .3s .3s;
+    cursor: pointer;
+  } 
+  img:hover {
+    --_i: 100%;
+    transition: .3s, background-size .3s .3s;
+  } */
+
+.pics{
+    border: 2px solid black;
+}
+  .container25{
+    display: flex; 
+    height: 500px;
+    width: 1430px;
+    border: 2px solid black;
+    margin: auto;
+    border-radius: 25px;
+    font-family: 'Times New Roman', Times, serif;
+
+  
+} 
+
+.head{
+  
+    color:maroon;
+    margin: auto;
+    padding-inline-start: 700px;
+    padding-bottom: 20px;
+}
+
+.left2 {
+    height: 500px;
+    width: 765px;
+    /* background-color: rgb(253, 245, 235); */
+    border-right: 2px solid black;
+    border-radius: 20px;
+}
+
+.left2 h1{
+    color: maroon;
+    padding-inline-start: 160px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    font-size: 45px;
+    border-bottom: 2px solid black;
+    border-radius: 20px;
+    
+}
+
+.right2{
+    width:765px;
+    /* background-color: rgb(253, 245, 235); */
+    border-radius: 20px;
+
+}
+.right2 h1{
+    color: maroon;
+    padding-bottom: 10px;
+    padding-inline-start: 160px;
+    border-bottom: 2px solid black;
+    border-radius: 20px;
+    padding-top: 15px;
+    font-size: 45px;
+}
+
+.left2 ul ,li{
+    font-size: 20px;
+    
+    list-style: none;
+    padding: 10px;
+}
+
+.right2 ul ,li{
+    font-size: 20px;  
+    list-style: none;
+    padding: 10px;
+}
+  
+  
+
+  
+  

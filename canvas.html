@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-color: #f0f0f0;
+    }
+
+    .pentagon-container {
+      position: relative;
+      width: 200px; /* You can adjust the size as needed */
+    }
+
+    .pentagon {
+      width: 100%;
+      height: 100%;
+      clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+      background-color: #008ae5; /* You can change the background color */
+      position: absolute;
+    }
+
+    .pentagon img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    }
+  </style>
+</head>
+<body>
+  <div class="pentagon-container">
+    <div class="pentagon">
+      <img src="tejas.jpeg" alt="Image inside pentagon">
+    </div>
+  </div>
+</body>
+</html>
